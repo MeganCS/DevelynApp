@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { Announcements } from '../pages/announcements/announcements';
 import { SportsPage } from '../pages/sports/sports';
 import { SettingsPage } from '../pages/settings/settings';
 import { SportsListComponent } from '../components/sports-list/sports-list';
@@ -16,6 +17,7 @@ import { SettingsProvider } from '../providers/settings/settings';
   declarations: [
     MyApp,
     HomePage,
+    AnnouncementsPage,
     SportsPage,
     SettingsPage,
     SportsListComponent,
@@ -28,6 +30,7 @@ import { SettingsProvider } from '../providers/settings/settings';
   entryComponents: [
     MyApp,
     HomePage,
+    AnnouncementsPage,
     SportsPage,
     SettingsPage,
     SportsListComponent,
