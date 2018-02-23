@@ -4,6 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { AnnouncementsPage } from '../pages/announcements/announcements';
 import { SportsPage } from '../pages/sports/sports';
 import { SettingsPage } from '../pages/settings/settings';
 
@@ -19,6 +20,7 @@ export class MyApp {
   pages = [
   //{name: "", page: },
   {name: "Home", page: HomePage},
+  {name: "Announcements", page: AnnouncementsPage},  
   {name: "Sports", page: SportsPage},
   {name: "Settings", page: SettingsPage},
   ];
